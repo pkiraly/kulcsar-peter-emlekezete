@@ -1,0 +1,64 @@
+body {
+  width: 1000px;
+  margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, #title-crumbs {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+div.navigation {
+  border-top: 1px solid maroon;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+menu {
+  margin-top: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: auto;
+  font-family: sans-serif;
+  font-size: 90%;
+}
+
+a {
+  color: saddlebrown;
+}
+
+li {
+  flex-grow: 1;
+}
+
+button {
+  width: 100%;
+}
+
+menu > li {
+  display: block;
+}
+
+menu li span {
+  font-weight: bold;
+}
+
+ul.secondary {
+  list-style: none;
+  padding-left: 0;
+
+}
+ul.secondary li {
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+h3#sites-page-title-header {
+  margin-top: 0;
+}
